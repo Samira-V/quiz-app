@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="first none">
+            <h2 class="title">QUIZ APP</h2>
+            <div class="quizCategory">
+                <Lable class="standard_label_style">category</Lable>
+                <select name="" id="category">
+                    <option value="12">Music</option>
+                    <option value="18">Computers</option>
+                    <option value="10">Books</option>
+                    <option value="11">Films</option>
+                    <option value="24">Politics</option>
+                    <option value="9">General Knowledge</option>
+                </select>
+            </div>
+             <div class="quizDifficulty">
+                <Lable class="standard_label_style">Difficulty</Lable>
+                <select name="" id="Difficulty">
+                    <option value="hard">Hard</option>
+                    <option value="medium">Medium</option>
+                    <option value="easy">Easy</option>
+                </select>
+            </div>
+                <div class="quizLimit">
+                <Lable class="standard_label_style">Limit</Lable>
+                <select name="" id="Limit">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+            </div>
+            
+            <button class="start">Start</button>
+
+        </div>
+
+        <div class="quizWrapper none">
+            <h2 class="question">
+                
+            </h2>
+            <div class="answers">
+               
+            </div>
+            <button class="next">Next</button>
+        </div>
+
+     <div class="scoreWrapper">
+        <div class="stateWrapper">
+            <p class="state"></p>
+            <span class="scoreText">your score</span>
+           <p class="score"></p>
+        </div>
+        <button class="restart">Restart</button>
+     </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
