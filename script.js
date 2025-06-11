@@ -85,6 +85,7 @@ const nextQuestion = () => {
 
 restart.addEventListener('click', () => {
     num = 1
+    scoreCount = 0
     first.classList.remove('none')
     scoreWrapper.classList.add('none')
 }
